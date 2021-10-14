@@ -46,7 +46,7 @@ app_setup_nginx_reverse_proxy_block: ""
 
 # changelog
 changelogs:
-  - { date: "14.10.21:", desc: "Use standard nginx.conf from lsio alpine nginx base image." }
+  - { date: "14.10.21", desc: "Use standard nginx.conf from lsio alpine nginx base image." }
   - { date: "29.06.21:", desc: "Rebase to 3.14, Add php7-zip package" }
   - { date: "20.05.21:", desc: "Create separate volume for image data" }
   - { date: "23.01.21:", desc: "Rebasing to alpine 3.13." }
