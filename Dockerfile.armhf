@@ -24,18 +24,20 @@ RUN \
     php8-dom \
     php8-exif \
     php8-gd \
-    php8-imagick \
     php8-ldap \
     php8-mysqli \
     php8-mysqlnd \
     php8-pear \
-    php8-xmlrpc \
+    php8-pecl-imagick \
     php8-xsl \
     php8-zip \
     poppler-utils \
     re2c \
     unzip \
     wget && \
+  apk add --no-cache \
+    --repository=http://dl-cdn.alpinelinux.org/alpine/edge/testing \
+    php8-pecl-xmlrpc && \
   echo "**** download piwigo ****" && \
   if [ -z ${PIWIGO_RELEASE+x} ]; then \
   PIWIGO_RELEASE=$(curl -sX GET "https://api.github.com/repos/Piwigo/Piwigo/releases/latest" \
