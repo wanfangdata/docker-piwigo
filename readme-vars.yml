@@ -46,7 +46,7 @@ app_setup_nginx_reverse_proxy_block: ""
 
 # changelog
 changelogs:
-  - { date: "19.12.21:", desc: "Rebasing to alpine 3.15 with php8. Restructure nginx configs ([see changes in base](https://github.com/linuxserver/docker-baseimage-alpine-nginx/pull/84))." }
+  - { date: "22.12.21:", desc: "Rebasing to alpine 3.15 with php8. Restructure nginx configs ([see changes in base](https://github.com/linuxserver/docker-baseimage-alpine-nginx/pull/84))." }
   - { date: "29.06.21:", desc: "Rebase to 3.14, Add php7-zip package" }
   - { date: "20.05.21:", desc: "Create separate volume for image data" }
   - { date: "23.01.21:", desc: "Rebasing to alpine 3.13." }
