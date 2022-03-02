@@ -1,9 +1,9 @@
 FROM ghcr.io/linuxserver/baseimage-alpine-nginx:3.14
 
 # set version label
-ARG BUILD_DATE
-ARG VERSION
-ARG PIWIGO_RELEASE
+ARG BUILD_DATE=20220301
+ARG VERSION=12.2.0
+ARG PIWIGO_RELEASE=12.2.0
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="sparklyballs"
 
